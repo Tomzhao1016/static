@@ -1,0 +1,3 @@
+var contactText = '<p>您可以通过以下方式与我取得联系：<ul>Email：<a href="mailto:Tom_zhao@tomzhao1016.top">Tom_zhao@tomzhao1016.top</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:zht_1016@aliyun.com">zht_1016@aliyun.com</a>(备用不常看)</p></ul></p><br><br><p>感谢<a href="https://ysfg.cc" target="_blank">云上法顾</a>提供的资金支持</p>';
+var contactContainer = document.getElementById('contact-container');
+contactContainer.innerHTML = contactText;

@@ -1,0 +1,91 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+
+    header {
+        background-color: #002fa7;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #002fa7;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0036C0;
+    }
+
+    nav li {
+        float: left;
+        position: relative;
+    }
+
+    nav li:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        height: 30px;
+        width: 1px;
+        background-color: #fff;
+    }
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    main {
+        padding: 30px;
+        margin: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+	main2 {
+        padding: 40px;
+        margin: 40px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+
+
+
+    footer {
+        background-color: #002fa7;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .rounded-image {
+      border-radius: 10%;
+    }
+  .no-wrap {
+    white-space: nowrap;
+  }
+	
+  .link-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link-container a {
+    float: left;
+    margin-right: 10px; /* 可根据需要调整间距 */
+  }
